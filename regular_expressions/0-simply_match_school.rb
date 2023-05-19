@@ -1,10 +1,11 @@
 #!/usr/bin/env ruby
 
 regex = /School/
-string = ARGV[0]
 
-if string =~ regex
+input_string = ARGV[0]
+
+if input_string =~ regex
   puts "School"
 else
-  puts ""
+  puts input_string
 end
