@@ -1,7 +1,2 @@
 #!/usr/bin/env ruby
-
-string = ARGV[0]
-
-if string =~ /htb+n/
-  puts string
-end
+puts ARGV[0].scan(/hb?t?n/).join
