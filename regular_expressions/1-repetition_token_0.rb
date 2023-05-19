@@ -2,7 +2,7 @@
 
 string = ARGV[0]
 
-if string =~ /School/
+if string =~ /Sb*t*o*t*a*t*l/
   puts "School"
 else
   puts ""
