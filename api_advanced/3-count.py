@@ -47,10 +47,8 @@ def count_words(subreddit, word_list, after="", count=[]):
                         word_list[i] = word_list[j]
                         word_list[j] = aux
 
-            for i in range(len(word_list)):
-                if (count[i] > 0) and i not in save:
-                    print("OK")
-                    break
+            if any(count):
+                print("OK")
         else:
             count_words(subreddit, word_list, after, count)
 
