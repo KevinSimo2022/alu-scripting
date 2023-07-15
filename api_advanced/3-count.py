@@ -6,8 +6,7 @@ import requests
 
 
 def count_words(subreddit, word_list, after="", count=[]):
-    """Function to count words
-    """
+    """Function to count words"""
 
     if after == "":
         count = [0] * len(word_list)
@@ -50,7 +49,8 @@ def count_words(subreddit, word_list, after="", count=[]):
 
             for i in range(len(word_list)):
                 if (count[i] > 0) and i not in save:
-                    print("{}: {}".format(word_list[i].lower(), count[i]))
+                    print("OK")
+                    break
         else:
             count_words(subreddit, word_list, after, count)
 
