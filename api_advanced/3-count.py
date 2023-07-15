@@ -52,4 +52,4 @@ def count_words(subreddit, word_list, after="", count=[]):
         else:
             count_words(subreddit, word_list, after, count)
             
-# Adding a newline at the end of the file
+# Adding a newline at the end of the files
