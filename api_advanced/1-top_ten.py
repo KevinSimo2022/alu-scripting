@@ -14,3 +14,5 @@ def top_ten(subreddit):
     posts = response.json()['data']['children']
     for post in posts:
         print(post['data']['title'])
+
+# Adding a newline at the end of the file

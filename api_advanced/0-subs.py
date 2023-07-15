@@ -19,4 +19,4 @@ def number_of_subscribers(subreddit):
     else:
         return 0
 
-# Add a newline at the end of the file
+# Adding a newline at the end of the file

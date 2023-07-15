@@ -22,3 +22,5 @@ def recurse(subreddit, hot_list=[], after=None):
             return recurse(subreddit, hot_list, data["after"])
     elif response.status_code == 404:
         return None
+    
+# Adding a newline at the end of the file
