@@ -18,4 +18,5 @@ def number_of_subscribers(subreddit):
         return data["subscribers"]
     else:
         return 0
-    
+
+# Add a newline at the end of the file
